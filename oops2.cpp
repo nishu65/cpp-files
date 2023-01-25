@@ -9,7 +9,7 @@ class student{
    // private:
    //   int id(void) ; int rank(void);
 }; 
-//void:: student setdata ( roll (int a ), phone(int b) ,name(stringc) ){
+//void:: student setdata ( roll (int a ), phone(int b) ,name(string c) ){
 
 int main ()
 {
