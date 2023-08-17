@@ -14,14 +14,14 @@ cout<<"memory allocated."<<endl;
 };
 for(int i=0;i<size;i++){
     int a;
-    cout<<"enter array at index ", i;
+    cout<<"enter array at index "<<i;
     cin>>a;
     ptr[i]=a;
 
 }
 cout<<"ARRAY : ";
 for(int b=0;b<size;b++){
-cout<<ptr[b],",";
+cout<<ptr[b]<<",";
 }
 
 
