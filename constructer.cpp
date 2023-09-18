@@ -13,6 +13,9 @@ class add{
         void display(){
             cout<<"SUM : "<<a+b;
         }
+        ~add(){
+            
+        };
 };
 int main (){
     add a;
