@@ -8,5 +8,10 @@ int main (){
     cout <<"enter a no : ";
     cin >>b;
 
-    cout<<(a==b)<<endl;
+    if (a==b){
+        cout<<"a is equal to b ";
+    }
+    else {
+        cout<<"a is not equal";
+    }
 }
