@@ -33,4 +33,13 @@ std::string s="   -42";
 Solution sol;
 int result = sol.myAtoi(s);
 std::cout << result << std::endl; // Output: -42
+
+s="4193 with words";
+result = sol.myAtoi(s);
+std::cout << result << std::endl; // Output: 4193
+
+char ch='5';
+int i=ch-'0'; // Convert char to int
+std::cout << i << std::endl; // Output: 5
+
 }

@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 int check(int j){
-    bool x=true;
     int i;
      for (i = 2; i <= j/2; i++)
         {
@@ -9,11 +8,11 @@ int check(int j){
             if (j % i == 0)
             {
                 //cout << " NOT PRIME NO : "<<a<<endl;
-                x=false;
-                break;
+                return 0;
+               
             }
         }
-         return x;
+         return 1;
 }
 
 int main()
